@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>NxB - High Quality Manga</title>
+  <meta name="title" content="NxB - High Quality Manga">
+  <meta name="description" content="This is a site to read Naruto x Boruto manga for free and in high quality">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./logoatas.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+</head>
+<body id="top">
+ 
+  <div class="loader-wrapper">
+    <div class="loader">
+      <span class="loader-text">loading</span>
+      <span class="load"></span>
+    </div>
+  </div>
+  <!-- 
+    - #HEADER
+  -->
+
+  <header id="home" class="header" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="#" class="logo">NxB</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Trending" class="navbar-link" data-nav-link>Trending</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Collections" class="navbar-link" data-nav-link>Collections</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Spoilers" class="navbar-link" data-nav-link>Spoilers</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+        <div class="search-bar-container" id="searchBarContainer">
+          <input type="text" class="search-bar" placeholder="Search..." id="searchInput">
+        </div>
+        <button class="action-btn" aria-label="Search" id="searchBtn">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+      
+    </div>
+  </header>
+  
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/coverhome.png')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <span class="span">High Quality</span> Manga
+          </h1>
+
+          <p class="hero-text"></p>
+
+          <a href="#Collections" class="btn">Read Now</a>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" id="Trending" aria-label="category">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Trending</span> Now
+          </h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 1200; --height: 650;">
+                  <a href="./Preview.html?id=boruto-two-blue-vortex&image=./assets/images/tbv.jpg"><img src="./assets/images/get.jpeg" width="330" height="300" loading="lazy" alt="Cover Picture"
+                    class="img-cover"></a>
+                </figure>
+                <h3 id="BorutoTbv" class="h3">
+                  <a href="./Preview.html?id=boruto-two-blue-vortex&image=./assets/images/tbv.jpg" class="card-title">Boruto: Two Blue Vortex</a>
+                </h3>
+              </div>
+            </li>
+            
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 1210; --height: 650;">
+                  <img src="./assets/images/brt.jpg" width="330" height="300" loading="lazy" alt="Cover Picture"
+                    class="img-cover">
+                </figure>
+                <h3 id="Boruto" class="h3">
+                  <a href="./Preview.html?id=boruto&image=./assets/images/brt.jpg" class="card-title">Boruto</a>
+                </h3>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 1210; --height: 650;">
+                  <img src="./assets/images/sasuke.jpg" width="330" height="300" loading="lazy" alt="Cover Picture"
+                    class="img-cover">
+                </figure>
+                <h3 id="SasukeStory" class="h3">
+                  <a href="./Preview.html?id=naruto-sasukes-story-the-uchiha-and-the-heavenly-stardust&image=./assets/images/ssk.jpg" class="card-title">Sasuke's Story</a>
+                </h3>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 1210; --height: 650;">
+                  <img src="./assets/images/mnt.jpg" width="330" height="300" loading="lazy" alt="Cover Picture"
+                    class="img-cover">
+                </figure>
+                <h3 id="Minato" class="h3">
+                  <a href="./MinatoPreview.html" class="card-title">Minato One Shot</a>
+                </h3>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 1210; --height: 650;">
+                  <img src="./assets/images/nrt.jpg" width="330" height="300" loading="lazy" alt="Cover Picture"
+                    class="img-cover">
+                </figure>
+                <h3 id="Naruto" class="h3">
+                  <a href="./Preview.html?id=naruto&image=./assets/images/nrt.jpg" class="card-title">Naruto</a>
+                </h3>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+                <figure class="card-banner img-holder" style="--width: 1210; --height: 650;">
+                  <img src="./assets/images/knhstry.jpg" width="330" height="300" loading="lazy" alt="Cover Picture"
+                    class="img-cover">
+                </figure>
+                <h3 id="KonohaStory" class="h3">
+                  <a href="./Preview.html?id=naruto-konohas-story-the-steam-ninja-scrolls&image=./assets/images/knhstry.jpg" class="card-title">Konoha's Story</a>
+                </h3>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+      <br>
+      <br>
+      
+      <!-- 
+        - #OFFERS 1
+      -->
+
+      <section class="section offer" id="PopularManga" aria-label="offer">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Popular</span> Manga
+          </h2>
+          <br>
+          <br>
+          <ul id="popular"  class="manga-container">
+           
+          </ul>
+        </div>   
+      </section>
+      <br>
+      <ul class="Pagination" id="Pagination">
+        <li><a id="prev">< Prev</a></li>
+        <li class="pageNumber "><a>1</a></li>
+        <li class="pageNumber active "><a>2</a></li>
+        <li class="pageNumber "><a>3</a></li>
+        <li class="pageNumber "><a>4</a></li>
+        <li class="pageNumber "><a>5</a></li>
+        <li><a id="next">Next ></a></li>
+      </ul>  
+      <br>
+      <br>
+      <!-- 
+        - #OFFERS 1
+      -->
+
+      <section class="section offer" id="RecommendedManga" aria-label="offer">
+        <div class="container">
+          <h2 class="h2 section-title">
+            <span class="span">Recommended</span> Manga
+          </h2>
+          <br>
+          <br>
+          <ul id="recommend" class="manga-container">
+            
+          </ul>
+        </div>
+      </section>
+      <br>
+      <ul class="Pagination" id="RecommendedPagination">
+        <li><a id="prev2">< Prev</a></li>
+        <li class="recommendedPageNumber active"><a>1</a></li>
+        <li class="recommendedPageNumber"><a>2</a></li>
+        <li class="recommendedPageNumber"><a>3</a></li>
+        <li class="recommendedPageNumber"><a>4</a></li>
+        <li class="recommendedPageNumber"><a>5</a></li>
+        <li><a id="next2">Next ></a></li>
+      </ul>
+      <br>
+      <br>
+      <!-- 
+        - #OFFERS 2
+      -->
+
+      <section class="section offer" id="Collections" aria-label="offer">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Best</span> Collections
+          </h2>
+          <br>
+          <ul class="grid-list">
+
+            <li id="Boruto: Two Blue Vortex" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/tbv.jpg'); --width: 352; --height: 528;">
+                <div class="btn-container">
+                  <a href="./Preview.html?id=boruto-two-blue-vortex&image=./assets/images/tbv.jpg" class="btn read-btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=boruto-two-blue-vortex&image=./assets/images/tbv.jpg" class="card-title">Boruto: Two Blue Vortex</a>
+              </h4>
+            </li>
+
+            <li id="naruto-sasukes-story-the-uchiha-and-the-heavenly-stardust" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/ssk.jpg'); --width: 352; --height: 528;">
+                <div class="btn-container">
+                  <a href="./Preview.html?id=naruto-sasukes-story-the-uchiha-and-the-heavenly-stardust&image=./assets/images/ssk.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=naruto-sasukes-story-the-uchiha-and-the-heavenly-stardust&image=./assets/images/ssk.jpg" class="card-title">Sasuke's Story</a>
+              </h4>
+            </li>
+
+            <li id="Minato" style="text-align: center;">
+                <div class="offer-card has-bg-image img-holder"
+                  style="background-image: url('./assets/images/mnt.jpg'); --width: 352; --height: 528;">
+                  <div class="btn-container">
+                    <a href="./MinatoPreview.html" class="btn">Read</a>
+                  </div>
+                </div>
+                <h4 class="h4" style="margin-top: 10px;">
+                  <a href="./MinatoPreview.html" class="card-title">Minato One Shot</a>
+                </h4>
+            </li>
+
+            <li id="naruto" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/nrt.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=naruto&image=./assets/images/nrt.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=naruto&image=./assets/images/nrt.jpg" class="card-title">Naruto</a>
+              </h4>
+            </li>
+
+            <li id="Boruto" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/brt.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=boruto&image=./assets/images/brt.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=boruto&image=./assets/images/brt.jpg" class="card-title">Boruto: Naruto Next Generations</a>
+              </h4>
+            </li>
+            
+            <li id="naruto konohas story the steam ninja scrolls" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/knhstry.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=naruto-konohas-story-the-steam-ninja-scrolls&image=./assets/images/knhstry.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=naruto-konohas-story-the-steam-ninja-scrolls&image=./assets/images/knhstry.jpg" class="card-title">Konoha Story</a>
+              </h4>
+            </li>
+
+            <li id="one piece" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/onpc.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=one-piece&image=./assets/images/onpc.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=one-piece&image=./assets/images/onpc.jpg" class="card-title">One Piece</a>
+              </h4>
+            </li>
+
+            <li id="dragon ball super" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/dgbl.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=dragon-ball-super&image=./assets/images/dgbl.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=dragon-ball-super&image=./assets/images/dgbl.jpg" class="card-title">Dragon Ball Super</a>
+              </h4>
+            </li>
+
+            <li id="jujutsu kaisen" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/jjk.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=jujutsu-kaisen&image=./assets/images/jjk.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=jujutsu-kaisen&image=./assets/images/jjk.jpg" class="card-title">Jujutsu Kaisen</a>
+              </h4>
+            </li>
+
+            <li id="chainsaw man" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/chnsmn.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=chainsaw-man&image=./assets/images/chnsmn.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=chainsaw-man&image=./assets/images/chnsmn.jpg" class="card-title">Chainsaw Man</a>
+              </h4>
+            </li>
+
+            <li id="haikyuuu" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/hkyu.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=haikyu&image=./assets/images/hkyu.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=haikyu&image=./assets/images/hkyu.jpg" class="card-title">Haikyuuu!!</a>
+              </h4>
+            </li>
+
+            <li id="boku nobhero academia" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/bnh.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=boku-no-hero-academia&image=./assets/images/bnh.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=boku-no-hero-academia&image=./assets/images/bnh.jpg" class="card-title">My Hero Academia</a>
+              </h4>
+            </li>
+
+            <li id="spy x family" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/spyx.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=spy-x-family&image=./assets/images/spyx.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=spy-x-family&image=./assets/images/spyx.jpg" class="card-title">Spy X Family</a>
+              </h4>
+            </li>
+
+            <li id="kimetsu no yaiba" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/dmnslyr.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=kimetsu-no-yaiba&image=./assets/images/dmnslyr.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=kimetsu-no-yaiba&image=./assets/images/dmnslyr.jpg" class="card-title">Demon Slayer</a>
+              </h4>
+            </li>
+
+            <li id="kagurabachi" style="text-align: center;">
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/kgrbchi.jpg'); --width: 352; --height: 528;">
+                <div  class="btn-container">
+                  <a href="./Preview.html?id=kagurabachi&image=./assets/images/kgrbchi.jpg" class="btn">Read</a>
+                </div>
+              </div>
+              <h4 class="h4" style="margin-top: 10px;">
+                <a href="./Preview.html?id=kagurabachi&image=./assets/images/kgrbchi.jpg" class="card-title">kagurabachi</a>
+              </h4>
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+
+      <br>
+      <br>
+      <div class="btn1-container1">
+        <a class="btn1" href="#Collections">Expand</a>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2 id="Spoilers" class="h2 section-title">
+        <span class="span">Spoilers</span> Manga
+      </h2>
+      <br>
+      <br>
+      <br>
+      <h2 class="h2 section-title">
+        <span class="span"></span>Soon...
+      </h2>
+      <br>
+      <br>
+      <br>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="Contact" class="footer" style="background-image: url('./assets/images/footer-bg.jpg')">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">NxB</a>
+
+          <p class="footer-text">
+            If you have any questions, please send your thoughts <a href="mailto:NiceuAnime@gmail.com"
+              class="link">NiceuAnime@gmail.com</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">Nxb All Rights Reserved</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</body>
+</html>

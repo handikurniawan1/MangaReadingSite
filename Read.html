@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="title" content="Nxb - High Quality Manga">
+    <meta name="description" content="This is a site to read Naruto x Boruto manga for free and in high quality">
+    <title>NxB - High Quality Manga</title>
+    <script>
+     
+    </script>
+    <link rel="shortcut icon" href="./logoatas.png" type="image/svg+xml">
+</head>
+<body class="Read">
+
+  <div class="loader-wrapper">
+    <div class="loader">
+        <span class="loader-text">loading</span>
+        <span class="load"></span>
+    </div>
+  </div>
+  
+  <ul id="ChapterList">
+    <h2 class="h21 section-title">
+      <span id="TitleChapter" class="span"></span>
+  </h2>
+    <li>
+      <div id="chapterImages"></div>
+      
+    </li>
+  </ul>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./assets/js/script.js" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      fetchChapterData();
+    });
+  </script>
+</body>
+</html>
